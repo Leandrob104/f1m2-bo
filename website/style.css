@@ -1,0 +1,40 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 250%;
+    background-color: grey;
+    border-bottom: 1px solid black;
+}
+
+article{
+    width: 60vw;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+figure{
+    margin-bottom: 40px;
+}
+img{
+    width: 100%;
+
+    border-radius: 5px;
+}
+
+p{
+    margin-bottom: 40px;
+}
+
+figcaption{
+    font-size: 80%;
+    font-style: italic;
+}
