@@ -1,0 +1,37 @@
+*{
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+
+h1{
+    font-size: 250% ;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(26, 12, 230)
+}
+
+article{
+    width: 60vw;
+   margin: 0 auto;
+    padding: 40px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    border-radius: 5px;
+    
+}
+section{
+    width: 40%;
+    margin: 0 auto;
+}
