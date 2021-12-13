@@ -1,40 +1,37 @@
 *{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body{
-    font-size: 20px;
-    font-family: sans-serif;
+    background-image: url(../img/zee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-h1{
-    font-size: 250%;
-    background-color: grey;
-    border-bottom: 1px solid black;
-}
-
-article{
-    width: 60vw;
-    margin: 0 auto;
-    padding: 40px;
-}
-
-figure{
-    margin-bottom: 40px;
-}
-img{
+header{
     width: 100%;
-
-    border-radius: 5px;
+    height: 60px;
+    background-color:darkcyan;
+}
+article{
+    width: 100vw;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-p{
-    margin-bottom: 40px;
+#logo{
+    width: 20%;
+    padding-bottom: 70px;
+    float: left;
 }
 
-figcaption{
-    font-size: 80%;
-    font-style: italic;
+#tekst_1{
+    display: flex;
+    align-content: center;
+}
+
+#tekst_2{
+    display: flex;
+    align-content: center;
 }
