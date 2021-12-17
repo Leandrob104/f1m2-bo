@@ -6,13 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>scheepsvaart museum</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <header></header>
-<article>
-    <img id="logo" src="/img/logo.jpg" alt="Logo scheepsvaart museum">
-   <p id="Tekst_1"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate</p>
-   <p id="Tekst_2"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate</p>
-</article>
+
+      <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#Collectie">Collectie</a>
+        <a href="#Openingstijden">Openingstijden</a>
+        <a href="#Tickets">Tickets</a>
+        <a href="#Contact">Contact</a>
+        <a href="#interactieve route">interactieve route</a>
+      </div>
+
+
+
+    <img id="logo" src="img/logo.jpg" alt="Logo scheepsvaart museum">
+
+
+
+    <div class="slide-container">
+        <img class="mySlides" src="img/boot.jpg" style="width:100%">
+        <img class="mySlides" src="img/VOC boot.jpg" style="width:100%">
+        <img class="mySlides" src="img/sea of thieves boot.jpg" style="width:100%">
+        <img class="mySlides" src="img/ac 4.jpg" style="width:100%">
+      
+        <button class="button-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="button-display-right" onclick="plusDivs(1)">&#10095;</button>
+      </div>
+      
+      <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+      
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+      
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        x[slideIndex-1].style.display = "block";  
+      }
+      </script>
+      
+
+
+
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate</p>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate</p>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate</p>
+    </div>
+
+
 </body>
 </html>
