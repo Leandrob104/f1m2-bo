@@ -1,0 +1,83 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #00102b;
+  }
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .topnav a.active {
+  background-color:#033f7a;
+    color: white;
+  }
+
+  .container{
+    display: flex;
+    align-content: center;
+  }
+  
+  .titels{
+    display: flex;
+    align-content: center;
+  }
+
+  #logo{
+    width: 20%;
+    padding-bottom: 25px;
+}
+
+h2{
+    width: 25%;
+    color: white;
+    background:#00102b;
+    margin: 5%;
+    margin-top: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    padding: 15px;
+  }
+  
+  p{
+    width: 25%;
+    color: white;
+    background: #00102b;
+    margin: 5%;
+    margin-top: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    padding: 15px;
+  }
+
+  #top{
+    background: #00102b;
+    height: 400px;
+    background-size: cover;
+    background-image: url(/img/wereld_kaart.jpg);
+  } 
+
+  #mid{
+    background-color:#033f7a;
+    height: 550px;
+  }
+  
+  #mid_2{
+    background-color: #0278c2;
+    height: 550px;
+  }
