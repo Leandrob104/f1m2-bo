@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="route2.css">
+    <title>Interactieve route</title>
+</head>
+<div class="topnav">
+    <div class="topnav">
+      <a class="active" href="home2.html">Home</a>
+      <a href="collectie2.html">collection</a>
+      <a href="openingstijden2.html">opening hours</a>
+      <a href="tickets2.html">Tickets</a>
+      <a href="contact2.html">Contact</a>
+      <a href="route2.html">interactive route</a>
+      <a id="Nederlands" href="/website/home.html">Nederlands</a>
+    </div>
+  </div>
+
+<body>
+    <div id="container">
+        <img id="myImage"src="img/0.jpg" height="600px" alt="foto sb">
+        <div id="myInteraction">
+            <div id="myTitle">a tour of the Maritime Museum/div>
+        <input type="text" id="myInput" autocomplete="off">
+        <input type="button" value="voer in" onclick="getInput()">
+        <h3>choose which direction you want to go:</h3>
+        <nav>
+            <button id="knopNoord" onclick="goDirection('noord')">North</button>
+            <button id="knopWest" onclick="goDirection('west')">West</button><button id="knopOost" onclick="goDirection('oost')">East</button>
+            <button id="knopZuid" onclick="goDirection('zuid')">South</button>
+        </nav>
+        
+    </div>
+    <script src="route.js"></script>
+</body>
+</html>

@@ -33,27 +33,6 @@
     right: 10px;
   }
 
-  .container{
-    display: flex;
-    align-content: center;
-  }
- 
-  
-  .titels{
-    display: flex;
-    align-content: center;
-  }
-
-  .row {
-    display: flex;
-  }
-  
-  .column {
-    flex: 33.33%;
-    padding-inline: 75px;
-    padding-bottom: 20px;
-  }
-
   #logo{
     width: 20%;
     padding-bottom: 25px;
@@ -92,23 +71,23 @@ h2{
     width: 25%;
     color: white;
     background: #00102b;
-    margin: 5%;
+    margin: 1%;
     margin-top: 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
-    padding: 15px;
+    padding: 4px;
   }
 
   #top{
     background: #00102b;
     height: 400px;
     background-size: cover;
-    background-image: url(/img/openingstijden_banner.jpg);
+    background-image: url(/img/tickets_banner.jpg);
   } 
 
   #mid{
     background-color:#033f7a;
-    height: 250px;
+    height: 750px;
   }
   
   #mid_2{
@@ -127,12 +106,14 @@ h2{
     font-size: 20px;
   }
 
-  h3{
-    padding-bottom: 50px;
-    padding-top: 50px;
-    width: 50%;
-    font-size: 25px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
-    color:white;
 
-  }
+h3{
+    width: 25%;
+    color: white;
+    background: #00102b;
+    margin: 1%;
+    margin-top: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    padding: 4px;
+}
