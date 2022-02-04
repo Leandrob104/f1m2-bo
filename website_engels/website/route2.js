@@ -15,15 +15,15 @@ let current_index = 0;
 
 let locaties = [
     {//0 = object
-        "titel":"ingang scheepsvaart museum",
-        "image":"img/1.jpg",
+        "titel":"0 ingang scheepsvaart museum",
+        "image":"/img/1.jpg",
         "directions":{
             "zuid": 1
         }
     },
     {//1 = object
-        "titel":"kamer 1",
-        "image":"img/55.jpg",
+        "titel":"1 kamer 1",
+        "image":"/img/55.jpg",
         "directions":{
             "noord": 3,
             "west": 2,
@@ -32,8 +32,8 @@ let locaties = [
         }
     },
     {
-        "titel":"kamer 2",
-        "image":"img/7977979.jpg",
+        "titel":" 2 kamer 2",
+        "image":"/img/7977979.jpg",
         "directions":{
             "oost": 1,
             "zuid": 3
@@ -41,23 +41,23 @@ let locaties = [
         }
     },
     {
-        "titel":"kamer 3",
-        "image":"img/33.jpg",
+        "titel":"3 kamer 3",
+        "image":"/img/33.jpg",
         "directions":{
             "noord": 2
         }
     },
     {
-        "titel":"kamer 4",
-        "image":"img/4.jpg",
+        "titel":"4 kamer 4",
+        "image":"/img/4.jpg",
         "directions":{
             "noord": 1
         }
     },
     
     {
-        "titel":"kamer 5",
-        "image":"img/66.jpg",
+        "titel":"5 kamer 5",
+        "image":"/img/66.jpg",
         "directions":{
             "west": 6,
             "oost": 7,
@@ -65,8 +65,8 @@ let locaties = [
         }
     },
     {
-        "titel":"kamer 6",
-        "image":"img/77.jpg",
+        "titel":"6 kamer 6",
+        "image":"/img/77.jpg",
         "directions":{
             "noord": 9,
             "west": 6,
@@ -74,31 +74,31 @@ let locaties = [
         }
     },
     {
-        "titel":"kamer 7",
-        "image":"img/88.jpg",
+        "titel":" 7 kamer 7",
+        "image":"/img/88.jpg",
         "directions":{
             "noord": 5
         }
     },
     {
-        "titel":"kamer 8",
-        "image":"img/99.jpg",
+        "titel":"8 kamer 8",
+        "image":"/img/99.jpg",
         "directions":{
             "west": 10,
             "zuid": 7
         }
     },
     {
-        "titel":"kamer 9",
-        "image":"img/walvis.jpg",
+        "titel":"9 kamer 9",
+        "image":"/img/walvis.jpg",
         "directions":{
             "oost": 9,
             "zuid": 5
         }
     },
     {
-        "titel":"kamer 10",
-        "image":"img/11.jpg",
+        "titel":"10 kamer 10",
+        "image":"/img/11.jpg",
         "directions":{
             "noord": 6
         }

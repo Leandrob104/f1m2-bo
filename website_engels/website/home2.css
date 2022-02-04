@@ -32,6 +32,7 @@
   #Nederlands{
     position: fixed;
     right: 10px;
+    background-color:orange;
   }
 
 #logo{
@@ -146,50 +147,58 @@ figure{
       opacity: 0;
       background-image: url(/img/wereld_kaart.jpg);
   }
-  12.5%{
+  10%{
       opacity: 1;
       background-image: url(/img/wereld_kaart.jpg);
   }
-  24%{
+  19%{
       opacity: 0;
       background-image: url(/img/wereld_kaart.jpg);
   }
-  25%{
+  20%{
       opacity: 0;
       background-image: url(/img/museum.jpg);
   }
-  37.5%{
+  30%{
       opacity: 1;
       background-image: url(/img/museum.jpg);
   }
-  49%{
+  39%{
       opacity: 0;
       background-image: url(/img/museum.jpg);
+  }
+  40%{
+      opacity: 0;
+      background-image: url(/img/boot.jpg);
   }
   50%{
-      opacity: 0;
-      background-image: url(/img/boot.jpg);
-  }
-  62.5%{
       opacity: 1;
       background-image: url(/img/boot.jpg);
   }
-  74%{
+  59%{
       opacity: 0;
       background-image: url(/img/boot.jpg);
   }
-  75%{
+  60%{
       opacity: 0;
       background-image: url(/img/VOC\ boot.jpg);
   }
-  87.5%{
+  70%{
       opacity: 1;
       background-image: url(/img/VOC\ boot.jpg);
   }
+  79%{
+      opacity: 0;
+      background-image: url(/img/VOC\ boot.jpg);
+  }
+  80%{
+    opacity: 0;
+    background-image: url(/img/ac\ 4.jpg);
+}
   99%{
-      opacity: 0;
-      background-image: url(/img/VOC\ boot.jpg);
-  }
+    opacity: 1;
+    background-image: url(/img/ac\ 4.jpg);
+}
   100%{
       opacity: 0;
       background-image: url(/img/wereld_kaart.jpg);
@@ -248,4 +257,14 @@ a{
   font-size: 30px;
   color: white;
   text-decoration: none;
+}
+
+#reviews{
+  background:#0278c2;
+  height: 800px;
+}
+
+h3{
+padding: 20px;
+color:#00102b;
 }
